@@ -20,7 +20,7 @@ public class DemoApplication {
 
 	@RequestMapping("/user")
     String user() {
-        return "heroku is すごい";
+        return "でんちゃん is すごい";
     }
 
 }
