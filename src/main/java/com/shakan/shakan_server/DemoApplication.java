@@ -16,6 +16,11 @@ public class DemoApplication {
 	@RequestMapping("/")
     String home() {
         return "Hello World!";
+	}
+
+	@RequestMapping("/user")
+    String user() {
+        return "heroku is すごい";
     }
 
 }
