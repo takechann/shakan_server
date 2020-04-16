@@ -1,4 +1,4 @@
-package com.shakan.loginpage.web;
+package com.shakan.signuppage.web;
 
 import java.io.Serializable;
 
@@ -8,10 +8,10 @@ import javax.validation.constraints.Size;
 import lombok.Data;
 
 /*
- * ログイン画面のFormクラス
+ * サインアップ画面のFormクラス
  */
 @Data
-public class LoginForm implements Serializable {
+public class SignUpForm implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
@@ -22,4 +22,5 @@ public class LoginForm implements Serializable {
     @NotNull
     @Size(min = 1, max=50)
     private String password;
+
 }
