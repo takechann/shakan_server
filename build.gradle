@@ -8,6 +8,9 @@ group = 'com.shakan'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
+
+
+
 configurations {
 	compileOnly {
 		extendsFrom annotationProcessor
@@ -25,6 +28,8 @@ dependencies {
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
+	// https://mvnrepository.com/artifact/javax.inject/javax.inject
+	compile group: 'javax.inject', name: 'javax.inject', version: '1'
 }
 
 test {
