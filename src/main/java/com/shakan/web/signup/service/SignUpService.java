@@ -1,8 +1,8 @@
-package com.shakan.signuppage.service;
+package com.shakan.web.signup.service;
 
 import javax.inject.Inject;
 
-import com.shakan.signuppage.web.SignUpForm;
+import com.shakan.web.signup.web.SignUpForm;
 
 import org.springframework.stereotype.Service;
 

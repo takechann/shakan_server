@@ -1,8 +1,8 @@
-package com.shakan.loginpage.service;
+package com.shakan.web.login.service;
 
 import javax.inject.Inject;
 
-import com.shakan.loginpage.web.LoginForm;
+import com.shakan.web.login.web.LoginForm;
 
 import org.springframework.stereotype.Service;
 
@@ -19,7 +19,7 @@ public class LoginService {
 
     /**
      * ビジネスロジック処理
-     * 
+     *
      */
     public void execute(LoginForm loginForm) {
         // ログイン処理
